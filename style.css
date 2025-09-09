@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #555;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+ul {
+    list-style-type: none; /* Прибирає стандартні маркери */
+    padding: 0;
+}
+
+li {
+    background-color: #eee;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: inline-block; /* Виводить елементи списку в один рядок */
+}
+a {
+    color: #007bff;
+    text-decoration: none; /* Прибирає підкреслення */
+}
+
+a:hover {
+    text-decoration: underline; /* Додає підкреслення при наведенні */
+}
+#theme-toggle {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+}
+.dark-theme {
+    background-color: #2c3e50; /* Темний фон */
+    color: #ecf0f1; /* Світлий текст */
+}
+
+.dark-theme .container {
+    background-color: #34495e; /* Темний фон для контейнера */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme h1, .dark-theme h2 {
+    color: #ecf0f1;
+}
+.project-item {
+    background-color: #f9f9f9; /* Світло-сірий фон */
+    border: 1px solid #ddd; /* Тонка рамка */
+    padding: 20px; /* Внутрішні відступи */
+    margin-bottom: 20px; /* Відступ від наступного проєкту */
+    border-radius: 8px; /* Закруглені кути */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Легка тінь */
+}
